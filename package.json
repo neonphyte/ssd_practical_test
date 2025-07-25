@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha tests/*.js",
     "start": "node src/server.js"
   },
   "repository": {
@@ -20,14 +20,17 @@
   },
   "homepage": "https://github.com/neonphyte/ssd_practical_test#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "selenium-webdriver": "^4.34.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.31.0",
     "@microsoft/eslint-formatter-sarif": "^3.1.0",
+    "chai": "^5.2.1",
     "eslint": "^9.31.0",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-security": "^3.0.1",
-    "globals": "^16.3.0"
+    "globals": "^16.3.0",
+    "mocha": "^11.7.1"
   }
 }
