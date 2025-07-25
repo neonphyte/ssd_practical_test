@@ -1,0 +1,6 @@
+projectKey=ssd-test
+serverUrl=http://localhost:9000
+serverVersion=25.7.0.110598
+dashboardUrl=http://localhost:9000/dashboard?id=ssd-test
+ceTaskId=7d373e7d-2435-4cfc-993d-de4c8f68130d
+ceTaskUrl=http://localhost:9000/api/ce/task?id=7d373e7d-2435-4cfc-993d-de4c8f68130d
