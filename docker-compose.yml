@@ -1,0 +1,19 @@
+services:
+  web:
+    build: 
+      dockerfile: web.Dockerfile
+      context: .
+    ports:
+      - "80:80"
+    volumes:
+      - .:/app
+
+  git-server:
+    build:
+      dockerfile: gitserver.Dockerfile
+      context: .
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./repos:/var/www/git

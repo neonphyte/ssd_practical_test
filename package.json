@@ -1,0 +1,25 @@
+{
+  "name": "ssd_practical_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neonphyte/ssd_practical_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/neonphyte/ssd_practical_test/issues"
+  },
+  "homepage": "https://github.com/neonphyte/ssd_practical_test#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
